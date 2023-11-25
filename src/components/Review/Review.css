@@ -1,0 +1,66 @@
+.review-wraper{
+     width: 70%;
+     margin: 0 auto;
+     margin-top: 50px;
+     display: flex;
+     gap: 40px;
+     align-items: center;
+}
+
+.card{
+     width: 80%;
+     display: flex;
+     gap: 10px;
+     align-items: center;
+     padding: 20px;
+     box-shadow: 0 2px 4px 0 rgba(225, 220, 220, 0.2), 0 3px 10px 0 rgba(144, 141, 141, 0.19);
+     border-radius: 15px;
+     margin-top: 50px;
+     
+}
+.tropical-info{
+     line-height: 1.5;
+}
+
+.tropical-info h2{
+     font-size: 30px;
+     font-weight: 700;
+}
+.tropical-info span{
+     font-size: 30px;
+}
+.tropical-info p{
+     margin-top: 10px;
+     font-size: 20px;
+     font-weight: 500;
+}
+.tropical-info ol{
+     margin-top: 30px;
+     padding-left: 30px;
+     line-height: 2;
+     list-style: disc;
+}
+
+.avatar{
+     width: 80px;
+     height: 80px;
+     border-radius: 50px;
+}
+
+.explore-btn{
+     margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    
+      .review-wraper{
+           width: 70%;
+           margin: 0 auto;
+           margin-top: 50px;
+           display: flex;
+           flex-direction: column;
+           gap: 20px;
+           align-items: center;
+      }
+    
+ }

@@ -1,0 +1,42 @@
+.footer-Wrapper{
+     text-align: center;
+     color: #2D2E2E;
+}
+
+.footer-Wrapper h1{
+     color: #2D2E2E;
+
+}
+
+.footer-Wrapper li {
+     list-style: none;
+}
+
+.footer-Wrapper p{
+     margin: 40px 0 0 0;
+}
+
+.lists{
+     display: flex;
+     justify-content: space-around;
+     margin: 50px 0;
+}
+
+.bold{
+     font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+   
+     .lists{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+     }
+
+     .footer-Wrapper li {
+          margin: 5px 0;
+     }
+    
+ }

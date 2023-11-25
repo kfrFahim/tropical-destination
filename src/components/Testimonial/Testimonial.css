@@ -1,0 +1,46 @@
+.container-wrapper{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     gap: 100px;
+     padding: 50px;
+}
+
+.testimonial-wrapper h1{
+     text-align: center;
+}
+
+.items{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.testimonial-wrapper span{
+     margin: 10px 0;
+}
+
+.underline{
+     width:126px;
+     height: 2px;
+     background-color: #A0CD9E;
+     margin: 10px 0;
+}
+
+.testimonial-wrapper p{
+     width: 70%;
+     text-align: center;
+}
+
+@media (max-width: 768px) {
+     .container-wrapper{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          gap: 100px;
+          padding: 50px;
+     }
+     
+    
+ }

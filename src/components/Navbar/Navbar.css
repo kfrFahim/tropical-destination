@@ -1,0 +1,101 @@
+.navbar {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: #fff;
+     color: #000;
+   
+     
+   }
+   
+   
+   /* NAVBAR MENU */
+   .menu {
+     display: flex;
+     gap: 1em;
+     font-size: 18px;
+     align-items: center;
+     list-style: none;
+   }
+   
+   
+   .menu li:hover {
+     background-color: #d6e5e5;
+     border-radius: 5px;
+     transition: 0.3s ease;
+   }
+   
+   .menu li a{
+     padding: 5px 14px;
+     color: #000;
+   }
+   
+   #menu-item{
+        margin-right: 140px;
+   }
+   
+   .nav-btn{
+        background: #F27A44;
+        padding: 16px 32px 16px 32px;
+        border-radius: 30px;
+        color: white;
+        font-size: 16px;
+        border: none;
+   }
+   
+   
+   input[type=checkbox] {
+        display: none;
+      } 
+      
+      /* HAMBURGER MENU */
+      .hamburger {
+        display: none;
+        font-size: 24px;
+        user-select: none;
+      }
+
+
+      @media (max-width: 768px) {
+          .menu {
+             display:none;
+             position: absolute;
+             background-color:rgb(254, 254, 254);
+             right: 0;
+             left: 0;
+             text-align: center;
+             padding: 16px 0;
+           }
+         
+           .menu li:hover {
+             display: inline-block;
+             background-color:#4c9e9e;
+             transition: 0.3s ease;
+           }
+         
+           .menu li + li {
+             margin-top: 12px;
+           }
+         
+           input[type=checkbox]:checked ~ .menu {
+             display: block;
+           }
+         
+           .hamburger {
+             display: block;
+           }
+      
+           .nav-btn{
+                color: white;
+                font-size: 16px;
+           }
+      
+           #menu-item{
+                margin-right: 0px;
+           }
+      
+           #offers{
+                color: #000 !important;
+           }
+         
+      }
